@@ -1,11 +1,11 @@
-# Reconhecimento de pneumonia em imagens de raio X
-## Projeto de Ana Carolina Gontijo Graça para o curso de Aprendizado de Máquinas - UFMG 2019.1
+# Pneumonia recognition in x-ray images
+## Project by Ana Carolina Gontijo Graça for the Machine Learning - UFMG 2019.1 course
 
-# O banco de dados:
-  O banco de dados utilizado foi obtido no kaggle, no link a seguir:
+# The data set:
+The data set used was obtained in Kaggle, in the link below:
     https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia
 
-  A pasta "chest-xray-pneumonia/chest_xray/" deve estar na base onde você estiver rodando o notebook localmente.
+  The "chest-xray-pneumonia/chest_xray/" folder must be in the current diretory where you run the notebook locally.
 
-# Tempo de execução:
-  Como é um projeto de deep-learning, sua execução é muito lenta em um computador normal. Caso o programa esteja demorando para rodar localmente, descomentando as linhas 6, 7 e 8 da primeira célula de código e rodando o código no google colab com aceleração com GPU o tempo de execução é reduzido consideravelmente. Vale a pena notar que a parte de carregamento das imagens será mais lenta no google colab, mas os treinamentos serão mais rápidos. Descomentando as linhas especificadas será ativado o uso do Google Drive como fonte de dados, portanto será necessário que os arquivos estejam em um google drive.
+# Execution time:
+  As it is a deep-learning project, its execution is really slow for a normal computer. If the program takes too long to run locally, uncomment lines 6, 7 and 8 from the python notebook's first cell and running in google colab with GPU acceleration the execution time is reduced considerably. It's important to notice that the images loading part will be slower in google colab, but the trainings will be faster. It's also important to notice that uncommenting the specified lines will activate the use of Google Drive as a data source, and so it will be necessary to uploads the data to that drive.
